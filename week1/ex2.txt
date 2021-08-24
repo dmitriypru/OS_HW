@@ -1,0 +1,60 @@
+    1  ls
+    2  cd ../
+    3  ls
+    4  cd ../
+    5  ls
+    6  cd home/
+    7  ls
+    8  git clone https://github.com/dmitriypru/OS_HW.git
+    9  ls
+   10  rm -rf OS_HW/
+   11  cd dmitriypru/
+   12  git clone https://github.com/dmitriypru/OS_HW.git
+   13  ls
+   14  cd OS_HW/
+   15  mkdir week1
+   16  cd week1/
+   17  grep -r '/usr/bin/' -e 'gcc' | sort -r >> ex1.txt
+   18  cat ex1.txt 
+   19  ls -a /usr/bin | grep 'gcc' | sort -r >> ex1.txt
+   20  cat ex1.txt 
+   21  rm ex1.txt 
+   22  ls -a /usr/bin | grep 'gcc' | sort -r >> ex1.txt
+   23  cat ex1.txt 
+   24  ls -a /usr/bin/ | grep 'gcc' | sort -r >> ex1.txt
+   25  cat ex1.txt 
+   26  find /usr/bin/ | grep gcc | sort -r >> ex1.txt
+   27  cat ex1.txt 
+   28  grep -r '/usr/bin/' -e 'gcc' | sort -r > ex1.txt
+   29  cat ex1.txt 
+   30  rm ex1.txt 
+   31  find /usr/bin/ | grep gcc | sort -r > ex1.txt
+   32  cat ex1.txt 
+   33  grep -h
+   34  grep --help
+   35  find /usr/bin/ | grep -i gcc | sort -r > ex1.txt
+   36  cat ex1.txt 
+   37  ls
+   38  find /usr/bin/
+   39  gcc
+   40  apt install gcc
+   41* apt update
+   42  apt install gcc --fix-missing
+   43  find /usr/bin/
+   44  find /usr/bin/ | grep gcc | sort -r > ex1.txt
+   45  cat ex1.txt 
+   46  nano ex1.txt 
+   47  cd ../
+   48  git checkout
+   49  git add .
+   50  git status
+   51  git commit -am "Added ex1.txt"
+   52  git config --global user.name "dmitriypru"
+   53  git config --global user.email "dmitriypru@gmail.com"
+   54  git commit --amend --reset-author
+   55  git push --force origin main
+   56  git remote add origin https://github.com/dmitriypru/OS_HW.git
+   57  git branch -M main
+   58  git push -u origin main
+   59  cd week1/
+   60  history > ex2.txt
