@@ -1,0 +1,2 @@
+   text    data     bss     dec     hex filename
+5189112  290032  143624 5622768  55cbf0 python3
