@@ -1,0 +1,3 @@
+Physical address is an address that refers to the address in real memory, while virtual address is an abstraction that refers to a virtual space allocated by a process.
+
+A physical address is what the operating system and the hardware work with, a virtual address is what applications see.

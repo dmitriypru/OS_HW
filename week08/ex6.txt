@@ -1,0 +1,5 @@
+8 kb = 2^13 bit
+
+16 bit virtual machine, it means that it will have 2^16 bit in adressable machine
+
+So we can store 2^(16-13) = 8 entries
