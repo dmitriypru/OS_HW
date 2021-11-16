@@ -1,0 +1,7 @@
+We should use:
+
+- Recovery through Preemption if it's possible to temporarily take a resource away from its current owner and give it to another process.
+- Recovery through Rollback if we can use "checkpoints" to restart processes at the specified points when it's needed.
+- Recovery through Killing Processes if it's possible to carefully kill processes that is holding needed resources.
+- Avoidance strategy if the system is be able to decide whether granting a resource is safe or not.
+- Prevention strategy if we can't do anything of listed above.
